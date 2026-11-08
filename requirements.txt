@@ -1,0 +1,14 @@
+# Versions below are the ones the sklearn part was tested with.
+# torch is NOT pinned yet: after your first successful GPU run, execute
+#   pip freeze | grep -i -E "^(torch|numpy|pandas|scikit-learn)="
+# and replace the torch line with the exact version you used.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+torch>=2.2
+kaggle
+jupyter
+nbformat
